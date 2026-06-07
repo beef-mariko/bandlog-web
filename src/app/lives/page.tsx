@@ -13,7 +13,7 @@ type Live = {
 
 type Member = {
   user_id: string
-  users: { name: string } | { name: string }[]
+  users: any
 }
 
 export default function LivesPage() {
